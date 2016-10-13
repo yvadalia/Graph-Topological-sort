@@ -1,5 +1,11 @@
 # Graph-Topological-sort
 
+The code will take the .csv file as an input and store the values in an n x n matrix.
+
+If an cycle is detected for the Digraph it will print "Graph has cycles" followed by the cycle.
+
+If Digraph is Acyclic it will print all vertex(1 to 50) in topological order. 
+
 ## Algroritm used to find cycle in Digraph: 
  
 Perform Depth First search (DFS) transversal on graph and the elements are stored in the stack 
